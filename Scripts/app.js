@@ -11,7 +11,7 @@ console.log("App Started...")
 
 })();
 
-/*	inject	the	paragraph	content in JavaScript*/
+/*	inject the paragraph content in JavaScript*/
 (function () {
 	var IntroParagraph;
 
