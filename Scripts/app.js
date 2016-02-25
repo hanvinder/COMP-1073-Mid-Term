@@ -122,4 +122,24 @@ console.log("App Started...")
 
 })();
 
+(function () {
+		console.log("main page");
+		
+		//variable and reference 
+		var firstName = document.getElementById("firstName");
+		var lastName = document.getElementById("lastName");
+		var email = document.getElementById("email");
+		var comments = document.getElementById("comments");
+		var submitButton = document.getElementById("submitButton");
+		submitButton.pre
 
+		// returning data
+		submitButton.addEventListener("click", function (event) {
+			event.preventDefault();
+			console.log("First Name: " + firstName.value);
+			console.log("Last Name: " + lastName.value);
+			console.log("Email: " + email.value);
+			console.log("Comments: " + comments.value);
+		});
+
+})();
