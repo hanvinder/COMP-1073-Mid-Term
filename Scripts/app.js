@@ -1,3 +1,5 @@
+/*app.js> Hanvinder Singh Rai> Travel Report> JavaScript for index page*/
+
 // setup your IIFE (Immediately Invoked Function Expression)
 var travelReport = (function () {
 
@@ -9,9 +11,7 @@ console.log("App Started...")
 
 })();
 
-/*app.js> Hanvinder Singh Rai> Portfolio> JavaScript for the first (about me ) page*/
-
-
+/*	inject	the	paragraph	content in JavaScript*/
 (function () {
 	var IntroParagraph;
 
@@ -122,6 +122,7 @@ console.log("App Started...")
 
 })();
 
+/*storing form data in variables*/
 (function () {
 		console.log("main page");
 		
